@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #373f41;
+    height: 80px;
+}
+
+header h1 {
+    margin: auto 0 auto -600px;
+    background-color: skyblue;
+    color: rgba(55, 63, 65, 1);
+    text-align: right;
+    width: 50%;
+}
+
+.unorderedlist ul {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    font-size: 20px;
+    width: 94%;
+    list-style: none;
+    margin: 28px 183px 13px -77px;
+    color: skyblue;
+}
+
+.unorderedlist ul li a {
+    color: skyblue;
+}
+
+.unorderedlist ul li a:visited {
+    color: skyblue;
+}
+
+.heroimage {
+    position: relative;
+}
+
+.batman {
+    position: absolute;
+    background-color: skyblue;
+    font-size: 28px;
+    font-style: italic;
+    top: 70%;
+    width: 99%;
+    text-align: right;
+}
