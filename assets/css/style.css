@@ -51,3 +51,32 @@ header h1 {
     width: 99%;
     text-align: right;
 }
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    /* this does not work */
+    justify-content: space-evenly;
+    max-width: 80%;
+    color: rgba(55, 63, 65, 1);
+    margin: 60px auto;
+}
+
+.border-right {
+    border-right: 2px solid rgba(55, 63, 65, 1);
+    font-size: 46px;
+    align-self: left;
+}
+
+.align-left {
+    display: flex;
+    align-self: flex-start;
+    /* text-align-last: right; */
+    /* Moved the text too far to the right */
+}
+
+.align-right {
+    display: flex;
+    align-self: center;
+    padding: 40px 40px 40px 40px;
+}
