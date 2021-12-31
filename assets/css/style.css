@@ -8,14 +8,18 @@ header {
     justify-content: space-between;
     background-color: #373f41;
     height: 80px;
+    color: #373f41;
 }
 
-header h1 {
-    margin: auto 0 auto -600px;
+.h1background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: skyblue;
-    color: rgba(55, 63, 65, 1);
+    height: 50px;
+    width: 250px;
     text-align: right;
-    width: 50%;
+    margin: auto 0;
 }
 
 .unorderedlist ul {
@@ -48,35 +52,105 @@ header h1 {
     font-size: 28px;
     font-style: italic;
     top: 70%;
-    width: 99%;
-    text-align: right;
+    left: 87%;
+    width: 9%;
+    text-align: center;
 }
 
 .about-me {
     display: flex;
     justify-content: center;
-    /* this does not work */
-    justify-content: space-evenly;
-    max-width: 80%;
-    color: rgba(55, 63, 65, 1);
-    margin: 60px auto;
+    margin: 40px 0 40px 0;
+    color: #373f41;
 }
 
-.border-right {
-    border-right: 2px solid rgba(55, 63, 65, 1);
-    font-size: 46px;
-    align-self: left;
-}
-
-.align-left {
+.aboutmefirstcontainer {
     display: flex;
-    align-self: flex-start;
-    /* text-align-last: right; */
-    /* Moved the text too far to the right */
+    width: 70%;
+    align-items: center;
+    font-size: 34px;
 }
 
-.align-right {
+.aboutmesecondcontainer {
+    border-right: solid 2px black;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.aboutmetitle {
+    font-weight: lighter;
+}
+
+.aboutmethirdcontainer {
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+.work {
     display: flex;
-    align-self: center;
-    padding: 40px 40px 40px 40px;
+    justify-content: center;
+    margin: 22px;
+    padding-top: 50px;
+    color: #373f41;
+}
+
+.workfirstcontainer {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    font-size: 34px;
+}
+
+.worksecondcontainer {
+    border-right: solid 2px black;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.worktitle {
+    font-weight: lighter;
+}
+
+.workthirdcontainer {
+    padding-left: 30px;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 40px 0;
+    color: #373f41;
+}
+
+.contactmefirstcontainer {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    font-size: 34px;
+}
+
+.contactmesecondcontainer {
+    border-right: solid 2px black;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.contactmetitle {
+    font-weight: lighter;
+}
+
+.contactmethirdcontainer {
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.contactmethirdcontainer ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.contactmethirdcontainer ul li {
+    padding: 0 60px 0 60px;
 }
