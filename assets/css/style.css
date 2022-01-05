@@ -133,7 +133,7 @@ header {
     position: absolute;
     background-color: skyblue;
     top: 75%;
-    width: 15%;
+    width: 20%;
     text-align: center;
 }
 
@@ -146,27 +146,95 @@ header {
 }
 
 .workimage2 {
+    position: relative;
     display: flex;
     border: solid 3px skyblue;
     padding: -2px;
+}
+
+.workimagedescription2 {
+    position: absolute;
+    background-color: skyblue;
+    top: 60%;
+    width: 40%;
+    text-align: center;
+}
+
+.workimagedescription2 h4 {
+    font-weight: lighter;
+}
+
+.workimagedescription2 p {
+    font-size: 15px;
 }
 
 .workimage3 {
+    position: relative;
     display: flex;
     border: solid 3px skyblue;
     padding: -2px;
+}
+
+.workimagedescription3 {
+    position: absolute;
+    background-color: skyblue;
+    top: 60%;
+    width: 40%;
+    text-align: center;
+}
+
+.workimagedescription3 h4 {
+    font-weight: lighter;
+}
+
+.workimagedescription3 p {
+    font-size: 15px;
 }
 
 .workimage4 {
+    position: relative;
     display: flex;
     border: solid 3px skyblue;
     padding: -2px;
 }
 
+.workimagedescription4 {
+    position: absolute;
+    background-color: skyblue;
+    top: 60%;
+    width: 40%;
+    text-align: center;
+}
+
+.workimagedescription4 h4 {
+    font-weight: lighter;
+}
+
+.workimagedescription4 p {
+    font-size: 15px;
+}
+
 .workimage5 {
+    position: relative;
     display: flex;
     border: solid 3px skyblue;
     padding: -2px;
+}
+
+.workimagedescription5 {
+    position: absolute;
+    background-color: skyblue;
+    top: 60%;
+    width: 40%;
+    text-align: center;
+}
+
+.workimagedescription5 h4 {
+    font-weight: lighter;
+}
+
+.workimagedescription5 p {
+    font-size: 15px;
 }
 
 .contact-me {
