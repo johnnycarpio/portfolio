@@ -3,6 +3,8 @@
     padding: 0px;
 }
 
+/* header and nav bar start */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -57,6 +59,10 @@ header {
     text-align: center;
 }
 
+/* header and nav bar end */
+
+/* about me section start */
+
 .about-me {
     display: flex;
     justify-content: center;
@@ -85,6 +91,10 @@ header {
     padding-left: 30px;
     font-size: 14px;
 }
+
+/* about me section end */
+
+/* work section start */
 
 .work {
     display: flex;
@@ -126,7 +136,15 @@ header {
     position: relative;
     display: flex;
     border: solid 3px skyblue;
-    padding: -10px;
+    height: 350px;
+}
+
+.workimage1 img {
+    opacity: 60%;
+}
+
+.workimage1 img:hover {
+    opacity: 100%;
 }
 
 .workimagedescription1 {
@@ -149,7 +167,15 @@ header {
     position: relative;
     display: flex;
     border: solid 3px skyblue;
-    padding: -2px;
+    height: 230px;
+}
+
+.workimage2 img {
+    opacity: 60%;
+}
+
+.workimage2 img:hover {
+    opacity: 100%;
 }
 
 .workimagedescription2 {
@@ -172,7 +198,15 @@ header {
     position: relative;
     display: flex;
     border: solid 3px skyblue;
-    padding: -2px;
+    height: 230px;
+}
+
+.workimage3 img {
+    opacity: 60%;
+}
+
+.workimage3 img:hover {
+    opacity: 100%;
 }
 
 .workimagedescription3 {
@@ -195,7 +229,15 @@ header {
     position: relative;
     display: flex;
     border: solid 3px skyblue;
-    padding: -2px;
+    height: 230px;
+}
+
+.workimage4 img {
+    opacity: 60%;
+}
+
+.workimage4 img:hover {
+    opacity: 100%;
 }
 
 .workimagedescription4 {
@@ -218,7 +260,15 @@ header {
     position: relative;
     display: flex;
     border: solid 3px skyblue;
-    padding: -2px;
+    height: 230px;
+}
+
+.workimage5 img {
+    opacity: 60%;
+}
+
+.workimage5 img:hover {
+    opacity: 100%;
 }
 
 .workimagedescription5 {
@@ -236,6 +286,10 @@ header {
 .workimagedescription5 p {
     font-size: 15px;
 }
+
+/* work section end */
+
+/* contact me section start */
 
 .contact-me {
     display: flex;
@@ -282,3 +336,9 @@ header {
     text-decoration: underline;
     text-underline-offset: 0.2em;
 }
+
+.contactmethirdcontainer ul li a:visited {
+    color: black;
+}
+
+/* contact me section end */
